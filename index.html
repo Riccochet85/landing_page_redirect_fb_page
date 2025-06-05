@@ -3,43 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sitio en construcción</title>
+    <title>El Refugio de Marita</title>
+    <meta name="description" content="Imagen genérica con un perrito llamado Roberto. El sitio está en construcción y redirige al perfil de Facebook de la organización El Refugio de Marita.">
+    <meta name="keywords" content="refugio de animales, perrito Roberto, sitio en construcción, El Refugio de Marita, Facebook">
+    <meta name="robots" content="index, follow">
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        html, body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-image: url('fondo-refugio.webp');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        }
-
-        .container {
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.85);
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
-        }
-
-        .container h1 {
-            font-size: 2em;
-            margin-bottom: 20px;
-        }
-
-        .container p {
-            font-size: 1.2em;
-            margin-bottom: 30px;
-        }
-
-        .container a {
-            text-decoration: none;
-            color: #3b5998;
+            padding: 0;
+           -family: Arial, sans-serif;
+            background: url('fondo-refugio.webp') no-repeat center center fixed;
+            background-size: contain;
+            background-color: #ffffff;
         }
 
         .floating-buttons {
@@ -62,17 +38,20 @@
         .floating-buttons a img:hover {
             transform: scale(1.1);
         }
+
+        .visually-hidden {
+            position: absolute;
+            left: -9999px;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Sitio en construcción</h1>
-        <p>Estamos trabajando para traerte algo especial. ¡Gracias por tu paciencia y vuelve pronto!</p>
-        <a href="https://www.facebook.com/profile.php?id=61558704847315" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="50" height="50">
-        </a>
+    <!-- Texto visible para SEO -->
+    <div class="visually-hidden">
+        Imagen genérica con un perrito al centro llamado Roberto. La imagen contiene un mensaje de sitio en construcción y una redirección al perfil de Facebook de la organización: El Refugio de Marita.
     </div>
 
+    <!-- Botones flotantes -->
     <div class="floating-buttons">
         <a href="https://www.facebook.com/profile.php?id=61558704847315" target="_blank" title="Facebook">
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
@@ -83,4 +62,3 @@
     </div>
 </body>
 </html>
-
